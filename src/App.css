@@ -73,4 +73,36 @@
   color: white !important;
 }
 
+@media only screen and (max-width: 600px) {
+  body{
+    overflow-x: hidden;
+  }
+
+  .home #award{
+    width: 350px;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .home #groupPhoto #photo{
+    width: auto;
+    height: 220px;
+  }
+
+  .home #mechanic #tools{
+    width: auto;
+    height: 130px;
+  }
+  
+  .home #footer #footerBottom{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: column;
+    height: auto;
+  }
+}
+
 
